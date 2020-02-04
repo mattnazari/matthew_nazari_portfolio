@@ -1,0 +1,118 @@
+.footerPosition {
+  position: absolute;
+  bottom: 0;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 200px;
+  background-color: #191919;
+  color: #efefef;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.contactPosition {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex;
+}
+
+.contact {
+  font-family: orkney-bold;
+  font-size: 36pt;
+}
+
+.underline {
+  width: 50%;
+  height: 8px;
+  background-color: #efefef;
+}
+
+.footerItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 220px 0 220px;
+}
+
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.icons {
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.githubIcon {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/graphics/github.svg");
+}
+
+.emailIcon {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/graphics/email.svg");
+}
+
+.phoneIcon {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/graphics/phone.svg");
+}
+
+.linkedinIcon {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/graphics/linkedin.svg");
+}
+
+.iconsCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.circleIconsCont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.squareIconsCont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.githubCont {
+  margin-bottom: 25px;
+}
+
+.emailCont {
+  margin-bottom: 25px;
+}
+
+.iconText {
+  font-size: 16pt;
+  color: #efefef;
+}
