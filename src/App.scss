@@ -1,0 +1,22 @@
+@import "./comps/Header/header.scss";
+@import "./comps/Footer/footer.scss";
+
+@font-face {
+  font-family: orkney-bold;
+  src: url(./assets/fonts/orkney-bold.otf);
+}
+
+@font-face {
+  font-family: orkney-regular;
+  src: url(./assets/fonts/orkney-regular.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: orkney-regular;
+}

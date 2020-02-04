@@ -1,0 +1,32 @@
+.headerContainer {
+  width: 100vw;
+  height: 50px;
+  background-color: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10px 20px 10px 20px;
+  background-color: #191919;
+  color: #efefef;
+}
+
+.logo {
+  width: 42px;
+  height: 30px;
+  background-image: url(../../assets/graphics/logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navItems {
+  font-family: orkney-bold;
+}
+
+.navItemsContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
