@@ -1,5 +1,6 @@
 @import "./comps/Header/header.scss";
 @import "./comps/Footer/footer.scss";
+@import "./comps/Main/Main.scss";
 
 @font-face {
   font-family: orkney-bold;
@@ -21,4 +22,5 @@ body {
   font-family: orkney-regular;
   background-color: #efefef;
   color: #191919;
+  overflow-x: hidden;
 }
