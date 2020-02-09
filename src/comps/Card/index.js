@@ -18,7 +18,7 @@ const Card = ({ cardImage, cardTitle, cardDescription, cardlink }) => {
 };
 
 Card.defaultProps = {
-  cardImage: "../../assets/graphics/WashareLogo.svg",
+  cardImage: "",
   cardTitle: "default title",
   cardDescription: "default description",
   cardlink: ""

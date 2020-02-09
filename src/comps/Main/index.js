@@ -37,6 +37,7 @@ const Main = () => {
           <div className="cardSpacing">
             <Link to="/Washare" style={linkStyle}>
               <Card
+                cardImage="url('http://www.matthewnazari.ca/WashareLogo.svg')"
                 cardTitle="Washare"
                 cardDescription="
               A washer and dryer booking mobile app created in a team made up of two designers and two 
@@ -46,6 +47,7 @@ const Main = () => {
           </div>
           <div className="cardSpacing">
             <Card
+              cardImage="url('http://www.matthewnazari.ca/fitly.svg')"
               cardTitle="Fitly"
               cardDescription="
               A workout schedule app created in a team of two. 
@@ -55,6 +57,7 @@ const Main = () => {
           <div className="cardSpacing">
             <Card
               cardTitle="QuikPix"
+              cardImage="url('http://www.matthewnazari.ca/quikpix.svg')"
               cardDescription="
             A Photo resizer app meant to resize photos to fit the resolutions of different
             social media platforms. Currently a work in progress."
@@ -62,20 +65,23 @@ const Main = () => {
           </div>
           <div className="cardSpacing">
             <Card
+              cardImage="url('http://www.matthewnazari.ca/calc.svg')"
               cardTitle="Calculator"
               cardDescription="
-            A simple calculator made in web development class using HTML, CSS, and JavaScript"
+            A simple calculator made in web development class using HTML, CSS, and JavaScript."
             />
           </div>
           <div className="cardSpacing">
             <Card
+              cardImage="url('http://www.matthewnazari.ca/squeak.svg')"
               cardTitle="Squeaker"
               cardDescription="
-            A web development assignment that helped me learn and practice my PHP and MySQL"
+            A web development assignment that helped me learn and practice my PHP and MySQL."
             />
           </div>
           <div className="cardSpacing">
             <Card
+              cardImage="url('http://www.matthewnazari.ca/portfolio.svg')"
               cardTitle="Portfolio Website"
               cardDescription="
             My portfolio website that I developed and designed using React and SCSS.
