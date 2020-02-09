@@ -3,11 +3,11 @@
   align-items: center;
   justify-content: space-between;
   width: 100vw;
-  height: 200px;
+  max-height: 100px;
   background-color: #191919;
   color: #efefef;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 20px 50px 20px 50px;
 }
 
 .contactContainer {
@@ -50,33 +50,19 @@
   width: 100%;
 }
 
-.icons {
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right: 10px;
-}
-
 .githubIcon {
-  width: 30px;
-  height: 30px;
   background-image: url("../../assets/graphics/github.svg");
 }
 
 .emailIcon {
-  width: 30px;
-  height: 30px;
   background-image: url("../../assets/graphics/email.svg");
 }
 
 .phoneIcon {
-  width: 30px;
-  height: 30px;
   background-image: url("../../assets/graphics/phone.svg");
 }
 
 .linkedinIcon {
-  width: 30px;
-  height: 30px;
   background-image: url("../../assets/graphics/linkedin.svg");
 }
 
@@ -87,28 +73,24 @@
   justify-content: center;
 }
 
-.circleIconsCont {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.squareIconsCont {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.githubCont {
-  margin-bottom: 25px;
-}
-
-.emailCont {
-  margin-bottom: 25px;
-}
-
 .iconText {
   font-size: 16pt;
   color: #efefef;
   text-decoration: none;
+}
+
+.copyright {
+  font-size: 10pt;
+}
+
+.icons {
+  transition: 0.1s ease-in-out;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icons:hover {
+  margin-bottom: 10px;
 }

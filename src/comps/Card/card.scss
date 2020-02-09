@@ -1,9 +1,9 @@
 .cardCont {
   min-height: 400px;
   width: 300px;
-  border-radius: 10px;
   box-shadow: 5px 5px 10px -3px rgba(25, 25, 25, 0.42);
   transition: 0.1s ease-in-out;
+  background-color: #eeeeee;
 }
 
 .cardImage {
@@ -30,5 +30,6 @@
 
 .cardCont:hover {
   cursor: pointer;
-  box-shadow: 8px 8px 10px -3px rgba(25, 25, 25, 0.42);
+  box-shadow: 10px 10px 12px -3px rgba(25, 25, 25, 0.42);
+  border-radius: 30px;
 }

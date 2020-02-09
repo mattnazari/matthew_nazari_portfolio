@@ -16,12 +16,13 @@ const Main = () => {
       <Header />
       <section className="topHomeSection">
         <h1>
-          Hi, my name is Matthew Nazari
-          <br />
-          I'm a Web & Mobile Developer.
+          Hey, I'm Matthew Nazari
+          <br />a Front-End Developer.
         </h1>
         <div className="homeAboutButtCont">
-          <button className="homeAboutButton">About Me</button>
+          <Link to="/About">
+            <button className="homeAboutButton">About Me</button>
+          </Link>
         </div>
       </section>
 

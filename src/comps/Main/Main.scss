@@ -1,5 +1,5 @@
 .topHomeSection {
-  min-height: 800px;
+  height: 900px;
   width: 100vw;
   display: flex;
   justify-content: space-between;
@@ -10,8 +10,13 @@
   text-shadow: 6px 5px 10px rgba(25, 25, 25, 0.5);
   font-size: 36pt;
   box-sizing: border-box;
-  padding: 200px 100px 100px 200px;
+  padding: 200px 100px 200px 100px;
   line-height: 5rem;
+  background-image: url("../../assets/graphics/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 14px 13px 32px -6px rgba(25, 25, 25, 0.43);
 }
 
 .homeAboutButtCont {

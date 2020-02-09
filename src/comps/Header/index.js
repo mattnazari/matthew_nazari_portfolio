@@ -66,8 +66,18 @@ const Header = () => {
         <Link to="/About" style={linkStyleWhite}>
           <li className="navItems navAbout">ABOUT</li>
         </Link>
-        <li className="navItems navAbout">RESUME</li>
-        <li className="navItems navContact">CONTACT</li>
+        <li className="navItems navAbout">
+          <a
+            style={linkStyleWhite}
+            href="http://www.matthewnazari.ca/Matthew_Nazari_Resume.pdf"
+            target="_blank"
+          >
+            RESUME
+          </a>
+        </li>
+        <Link to="/Contact" style={linkStyleWhite}>
+          <li className="navItems navContact">CONTACT</li>
+        </Link>
       </ul>
     </div>
   );

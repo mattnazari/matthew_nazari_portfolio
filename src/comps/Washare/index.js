@@ -9,6 +9,7 @@ const Washare = () => {
       <section className="summary">
         <div className="summaryCont">
           <h1 className="sumTitle washareSumTitle">Washare</h1>
+          <div className="summaryImg washareSumImg"></div>
           <h2 className="sumDate">Sept 2019 - Dec 2019</h2>
           <p className="sumDesc">
             Washare is a washer and dryer booking system for people living in
@@ -33,7 +34,6 @@ const Washare = () => {
               Team Website
             </a>
           </div>
-          <div className="summaryImg washareSumImg"></div>
         </div>
       </section>
       <section className="learningOutcomes"></section>
