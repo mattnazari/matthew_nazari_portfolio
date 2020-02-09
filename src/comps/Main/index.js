@@ -19,11 +19,6 @@ const Main = () => {
           Hey, I'm Matthew Nazari
           <br />a Front-End Developer.
         </h1>
-        <div className="homeAboutButtCont">
-          <Link to="/About">
-            <button className="homeAboutButton">About Me</button>
-          </Link>
-        </div>
       </section>
 
       <section className="bottomHomeSection">
@@ -46,47 +41,57 @@ const Main = () => {
             </Link>
           </div>
           <div className="cardSpacing">
-            <Card
-              cardImage="url('http://www.matthewnazari.ca/fitly.svg')"
-              cardTitle="Fitly"
-              cardDescription="
+            <Link to="/Fitly" style={linkStyle}>
+              <Card
+                cardImage="url('http://www.matthewnazari.ca/fitly.svg')"
+                cardTitle="Fitly"
+                cardDescription="
               A workout schedule app created in a team of two. 
               Researched, designed, and developed the entire project from start to finish."
-            />
+              />
+            </Link>
           </div>
           <div className="cardSpacing">
-            <Card
-              cardTitle="QuikPix"
-              cardImage="url('http://www.matthewnazari.ca/quikpix.svg')"
-              cardDescription="
+            <Link to="/Quikpix" style={linkStyle}>
+              <Card
+                cardTitle="QuikPix"
+                cardImage="url('http://www.matthewnazari.ca/quikpix.svg')"
+                cardDescription="
             A Photo resizer app meant to resize photos to fit the resolutions of different
             social media platforms. Currently a work in progress."
-            />
+              />
+            </Link>
           </div>
           <div className="cardSpacing">
-            <Card
-              cardImage="url('http://www.matthewnazari.ca/calc.svg')"
-              cardTitle="Calculator"
-              cardDescription="
+            <Link to="/Calculator" style={linkStyle}>
+              <Card
+                cardImage="url('http://www.matthewnazari.ca/calc.svg')"
+                cardTitle="Calculator"
+                cardDescription="
             A simple calculator made in web development class using HTML, CSS, and JavaScript."
-            />
+              />
+            </Link>
           </div>
           <div className="cardSpacing">
-            <Card
-              cardImage="url('http://www.matthewnazari.ca/squeak.svg')"
-              cardTitle="Squeaker"
-              cardDescription="
+            <Link to="/Squeaker" style={linkStyle}>
+              <Card
+                cardImage="url('http://www.matthewnazari.ca/squeak.svg')"
+                cardTitle="Squeaker"
+                cardDescription="
             A web development assignment that helped me learn and practice my PHP and MySQL."
-            />
+              />
+            </Link>
           </div>
           <div className="cardSpacing">
-            <Card
-              cardImage="url('http://www.matthewnazari.ca/portfolio.svg')"
-              cardTitle="Portfolio Website"
-              cardDescription="
+            <Link to="/PortfolioWebsite" style={linkStyle}>
+              <Card
+                cardImage="url('http://www.matthewnazari.ca/portfolio.svg')"
+                cardTitle="Portfolio Website"
+                cardDescription="
             My portfolio website that I developed and designed using React and SCSS.
             "
-            />
+              />
+            </Link>
           </div>
         </div>
       </section>

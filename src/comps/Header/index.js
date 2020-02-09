@@ -18,13 +18,13 @@ const Header = () => {
   const linkStyle = {
     textDecoration: "none",
     color: "#191919",
-    fontFamily: "orkney-regular"
+    fontFamily: "orkney-bold"
   };
 
   const linkStyleWhite = {
     textDecoration: "none",
     color: "#efefef",
-    fontFamily: "orkney-regular"
+    fontFamily: "orkney-bold"
   };
 
   return (
@@ -56,17 +56,27 @@ const Header = () => {
             <Link to="/Washare" style={linkStyle}>
               <MenuItem>Washare</MenuItem>
             </Link>
-            <MenuItem>Fitly</MenuItem>
-            <MenuItem>QuikPix</MenuItem>
-            <MenuItem>Calculator</MenuItem>
-            <MenuItem>Squeaker</MenuItem>
-            <MenuItem>Portfolio Website</MenuItem>
+            <Link to="/Fitly" style={linkStyle}>
+              <MenuItem>Fitly</MenuItem>
+            </Link>
+            <Link to="/Quikpix" style={linkStyle}>
+              <MenuItem>QuikPix</MenuItem>
+            </Link>
+            <Link to="/Calculator" style={linkStyle}>
+              <MenuItem>Calculator</MenuItem>
+            </Link>
+            <Link to="/Squeaker" style={linkStyle}>
+              <MenuItem>Squeaker</MenuItem>
+            </Link>
+            <Link to="/PortfolioWebsite" style={linkStyle}>
+              <MenuItem>Portfolio Website</MenuItem>
+            </Link>
           </Menu>
         </div>
         <Link to="/About" style={linkStyleWhite}>
           <li className="navItems navAbout">ABOUT</li>
         </Link>
-        <li className="navItems navAbout">
+        <li className="navItems navAbout" style={linkStyleWhite}>
           <a
             style={linkStyleWhite}
             href="http://www.matthewnazari.ca/Matthew_Nazari_Resume.pdf"
