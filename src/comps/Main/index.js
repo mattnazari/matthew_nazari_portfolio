@@ -1,14 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "../Card";
+import Header from "../Header";
+import Footer from "../Footer";
+import { Link } from "react-router-dom";
+import Washare from "../Washare";
 
 const Main = () => {
+  const linkStyle = {
+    textDecoration: "none",
+    color: "#191919",
+    fontFamily: "orkney-regular"
+  };
+
   return (
     <div>
+      <Header />
       <section className="topHomeSection">
         <h1>
           Hi, my name is Matthew Nazari
           <br />
-          I'm a Front-End Developer.
+          I'm a Web & Mobile Developer.
         </h1>
         <div className="homeAboutButtCont">
           <button className="homeAboutButton">About Me</button>
@@ -24,12 +35,14 @@ const Main = () => {
         </div>
         <div className="homeCards">
           <div className="cardSpacing">
-            <Card
-              cardTitle="Washare"
-              cardDescription="
+            <Link to="/Washare" style={linkStyle}>
+              <Card
+                cardTitle="Washare"
+                cardDescription="
               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               standard dummy text ever since the 1500s, when an unknown printer took a galley of"
-            />
+              />
+            </Link>
           </div>
           <div className="cardSpacing">
             <Card cardTitle="Fitly" />
@@ -48,6 +61,7 @@ const Main = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

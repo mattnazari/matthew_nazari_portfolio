@@ -1,0 +1,82 @@
+.screenshots {
+  width: 100vw;
+  min-height: 2000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projectimgs {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.washareimg1 {
+  background-image: url("../../assets/graphics/washareimg1.png");
+}
+
+.washareimg2 {
+  background-image: url("../../assets/graphics/washareimg2.png");
+}
+
+.washareimg3 {
+  background-image: url("../../assets/graphics/washareimg3.png");
+}
+
+.summaryCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 100px 300px 100px 300px;
+}
+
+.sumDesc {
+  font-size: 14pt;
+}
+
+.sumDate {
+  font-size: 24pt;
+}
+
+.sumTitle {
+  font-size: 36pt;
+  text-shadow: 3px 3px 10px rgba(25, 25, 25, 0.5);
+  font-family: orkney-bold;
+}
+
+.washareSumImg {
+  background-image: url("../../assets/graphics/WashareLogo.svg");
+  width: 350px;
+  height: 215px;
+}
+
+.summaryImg {
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 14px 13px 32px -6px rgba(25, 25, 25, 0.43);
+}
+
+.sumLinks {
+  text-decoration: none;
+  color: #191919;
+  transition: 0.1s ease-in-out;
+}
+
+.sumLinks:hover {
+  color: #3bade6;
+}
+
+.sumLinksCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}

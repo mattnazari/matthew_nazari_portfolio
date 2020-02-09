@@ -12,9 +12,6 @@ const Card = ({ cardImage, cardTitle, cardDescription, cardlink }) => {
       <div className="cardInfo">
         <h2 className="cardTitle">{cardTitle}</h2>
         <p className="cardDesc">{cardDescription}</p>
-        <a href={cardlink} className="learnMore">
-          Learn More
-        </a>
       </div>
     </div>
   );
