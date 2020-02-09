@@ -21,6 +21,12 @@ const Header = () => {
     fontFamily: "orkney-regular"
   };
 
+  const linkStyleWhite = {
+    textDecoration: "none",
+    color: "#efefef",
+    fontFamily: "orkney-regular"
+  };
+
   return (
     <div className="headerContainer">
       <Link to="/">
@@ -57,7 +63,10 @@ const Header = () => {
             <MenuItem>Portfolio Website</MenuItem>
           </Menu>
         </div>
-        <li className="navItems navAbout">ABOUT</li>
+        <Link to="/About" style={linkStyleWhite}>
+          <li className="navItems navAbout">ABOUT</li>
+        </Link>
+        <li className="navItems navAbout">RESUME</li>
         <li className="navItems navContact">CONTACT</li>
       </ul>
     </div>

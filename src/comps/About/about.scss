@@ -1,0 +1,73 @@
+.aboutWrapper {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.aboutImg {
+  background-image: url("../../assets/graphics/blk_logo.svg");
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  margin-right: 50px;
+}
+
+.aboutRow {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.aboutText {
+  max-width: 500px;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.skillsDesc {
+  margin-top: 50px;
+  max-width: 500px;
+}
+
+.skillImgs {
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.skillsImgsCont {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.skillImg1 {
+  background-image: url("../../assets/graphics/html.svg");
+}
+
+.skillImg2 {
+  background-image: url("../../assets/graphics/css.svg");
+}
+
+.skillImg3 {
+  background-image: url("../../assets/graphics/js.svg");
+}
+
+.skillImg4 {
+  background-image: url("../../assets/graphics/node.svg");
+}
+
+.skillImg5 {
+  background-image: url("../../assets/graphics/react.svg");
+}

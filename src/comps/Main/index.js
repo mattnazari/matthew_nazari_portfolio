@@ -3,7 +3,6 @@ import Card from "../Card";
 import Header from "../Header";
 import Footer from "../Footer";
 import { Link } from "react-router-dom";
-import Washare from "../Washare";
 
 const Main = () => {
   const linkStyle = {

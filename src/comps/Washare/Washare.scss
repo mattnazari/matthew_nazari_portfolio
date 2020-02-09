@@ -35,11 +35,13 @@
   width: 100vw;
   min-height: 100vh;
   box-sizing: border-box;
-  padding: 100px 300px 100px 300px;
+  padding: 100px 280px 100px 280px;
 }
 
 .sumDesc {
   font-size: 14pt;
+  box-sizing: border-box;
+  padding: 0 50px 0 50px;
 }
 
 .sumDate {
@@ -68,6 +70,8 @@
   text-decoration: none;
   color: #191919;
   transition: 0.1s ease-in-out;
+  box-sizing: border-box;
+  padding: 0 50px 0 50px;
 }
 
 .sumLinks:hover {
