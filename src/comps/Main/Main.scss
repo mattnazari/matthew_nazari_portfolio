@@ -1,4 +1,88 @@
-section {
-  min-height: 100vh;
+.topHomeSection {
+  min-height: 800px;
+  width: 100vw;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: orkney-bold;
+  text-shadow: 6px 5px 10px rgba(25, 25, 25, 0.5);
+  font-size: 36pt;
+  box-sizing: border-box;
+  padding: 200px 100px 100px 200px;
+  line-height: 5rem;
+}
+
+.homeAboutButtCont {
+  box-sizing: border-box;
+  width: 100vw;
+  min-height: 100px;
+}
+
+.homeAboutButton {
+  border: none;
+  background-color: #191919;
+  color: #efefef;
+  box-sizing: border-box;
+  padding: 20px 25px 20px 25px;
+  transition: 0.1s ease-in-out;
+  font-size: 12pt;
+}
+
+.homeAboutButton:hover {
+  cursor: pointer;
+  padding: 25px 30px 25px 30px;
+  font-size: 16pt;
+  box-shadow: 14px 13px 32px -6px rgba(25, 25, 25, 0.43);
+}
+
+.bottomHomeSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 100px;
+}
+
+.projectTitleCont {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.projectsTitle {
+  font-family: orkney-bold;
+  font-size: 36pt;
+  text-shadow: 6px 5px 10px rgba(25, 25, 25, 0.5);
+}
+
+.blackunderline {
+  width: 50%;
+  height: 8px;
+  background-color: #191919;
+}
+
+.cardSpacing {
+  margin-top: 50px;
+}
+
+.homeCards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 50px 300px 50px 300px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .homeCards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 50px;
+  }
 }

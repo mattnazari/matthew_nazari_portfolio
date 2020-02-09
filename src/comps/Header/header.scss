@@ -1,8 +1,3 @@
-.headerFixed {
-  position: fixed;
-  top: 0;
-}
-
 .headerContainer {
   width: 100vw;
   height: 50px;
@@ -14,6 +9,7 @@
   padding: 10px 50px 10px 50px;
   background-color: #191919;
   color: #efefef;
+  box-shadow: 14px 13px 32px -6px rgba(25, 25, 25, 0.43);
 }
 
 .headerLogo {
@@ -33,7 +29,7 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-  width: 50%;
+  min-width: 30%;
 }
 
 ul {

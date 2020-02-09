@@ -3,6 +3,7 @@ import "./App.scss";
 import Header from "./comps/Header";
 import Footer from "./comps/Footer";
 import Main from "./comps/Main";
+import Card from "./comps/Card";
 
 const App = () => {
   return (
