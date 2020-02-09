@@ -38,6 +38,7 @@ const Contact = () => {
             <div className="contactIconsCont">
               <a
                 href="mailto:matthewnaz8@gmail.com"
+                target="_blank"
                 className="contactAnch emailAnch"
               >
                 <div className="contactIcons contactEmail"></div>

@@ -17,10 +17,13 @@
 .cardInfo {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   min-height: 200px;
   box-sizing: border-box;
   padding: 20px;
+}
+
+.cardDesc {
+  margin-top: 5px;
 }
 
 .learnMore {

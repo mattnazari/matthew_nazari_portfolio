@@ -75,19 +75,21 @@
 
 .emailAnch:hover > .contactEmail {
   background-image: url("../../assets/graphics/blkEmail.svg");
+  color: #191919;
 }
 
 .phoneAnch:hover > .contactPhone {
   background-image: url("../../assets/graphics/blkPhone.svg");
+  color: #191919;
 }
 
 .linkedinAnch:hover > .contactLinkedin {
   background-image: url("../../assets/graphics/blkLinkedin.svg");
+  color: #191919;
 }
 
 .contactIconsText:hover {
   color: #191919;
-  transition: 0.3s ease-in-out;
 }
 
 .githubAnch:hover {
