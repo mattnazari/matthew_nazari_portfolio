@@ -2,5 +2,106 @@
   display: flex;
   flex-flow: column wrap;
   width: 100vw;
-  height: 100vh;
+  min-height: 790px;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.contactTitle {
+  font-family: orkney-bold;
+  font-size: 36pt;
+  text-shadow: 3px 3px 10px rgba(25, 25, 25, 0.5);
+}
+
+.contactMain {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.contactIcons {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.contactGithub {
+  background-image: url("../../assets/graphics/greyGithub.svg");
+}
+
+.contactEmail {
+  background-image: url("../../assets/graphics/greyEmail.svg");
+}
+
+.contactPhone {
+  background-image: url("../../assets/graphics/greyPhone.svg");
+}
+
+.contactLinkedin {
+  background-image: url("../../assets/graphics/greyLinkedin.svg");
+}
+
+.contactIconsCont {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 50px 100px 50px 100px;
+}
+
+.contactIconsCont {
+  display: flex;
+  flex-flow: row warp;
+  min-width: 500px;
+}
+
+.contactAnch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  font-family: orkney-bold;
+  color: #b7b7b7;
+}
+
+.githubAnch:hover > .contactGithub {
+  background-image: url("../../assets/graphics/blkGithub.svg");
+  color: #191919;
+}
+
+.emailAnch:hover > .contactEmail {
+  background-image: url("../../assets/graphics/blkEmail.svg");
+}
+
+.phoneAnch:hover > .contactPhone {
+  background-image: url("../../assets/graphics/blkPhone.svg");
+}
+
+.linkedinAnch:hover > .contactLinkedin {
+  background-image: url("../../assets/graphics/blkLinkedin.svg");
+}
+
+.contactIconsText:hover {
+  color: #191919;
+  transition: 0.3s ease-in-out;
+}
+
+.githubAnch:hover {
+  color: #191919;
+}
+
+.phoneAnch:hover {
+  color: #191919;
+}
+
+.emailAnch:hover {
+  color: #191919;
+}
+
+.linkedinAnch:hover {
+  color: #191919;
 }
