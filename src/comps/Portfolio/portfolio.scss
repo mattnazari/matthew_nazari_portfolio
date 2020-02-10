@@ -1,0 +1,32 @@
+.portfolioSumImg {
+  background-image: url("../../assets/graphics/portfolioWeb.PNG");
+  width: 350px;
+  height: 215px;
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolioimg1 {
+  background-image: url("../../assets/graphics/squeakP1.png");
+}
+
+.portfolioSumLinksCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.portfolioSumLinks {
+  text-decoration: none;
+  color: #191919;
+  transition: 0.1s ease-in-out;
+  box-sizing: border-box;
+  padding: 0 50px 0 50px;
+  font-size: 18pt;
+}
+
+.portfolioSumLinks:hover {
+  color: #3bade6;
+}

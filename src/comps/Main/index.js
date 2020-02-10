@@ -43,7 +43,7 @@ const Main = () => {
           <div className="cardSpacing">
             <Link to="/Fitly" style={linkStyle}>
               <Card
-                cardImage="url('http://www.matthewnazari.ca/fitly.svg')"
+                cardImage="url('http://www.matthewnazari.ca/fitlyLogo.svg')"
                 cardTitle="Fitly"
                 cardDescription="
               A workout schedule app created in a team of two. 

@@ -8,7 +8,7 @@ const Washare = () => {
       <Header />
       <section className="summary">
         <div className="summaryCont">
-          <h1 className="sumTitle washareSumTitle">Washare</h1>
+          <h1 className="sumTitle projectsSumTitle">Washare</h1>
           <div className="summaryImg washareSumImg"></div>
           <h2 className="sumDate">Sept 2019 - Dec 2019</h2>
           <p className="sumDesc">
