@@ -12,7 +12,7 @@ const Main = () => {
   };
 
   return (
-    <div>
+    <div className="mainContainer">
       <Header />
       <section className="topHomeSection">
         <h1>

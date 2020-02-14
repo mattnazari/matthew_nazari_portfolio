@@ -1,3 +1,9 @@
+.mainContainer {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1;
+}
+
 .topHomeSection {
   height: 900px;
   width: 100vw;
