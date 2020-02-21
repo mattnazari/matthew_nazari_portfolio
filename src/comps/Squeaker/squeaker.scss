@@ -12,9 +12,29 @@
 
 .squeakScreenshots {
   width: 100vw;
-  min-height: 1000px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
+  padding: 0 100px 0 100px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .squeakScreenshots {
+    height: 300px;
+    padding: 0;
+    margin-bottom: 100px;
+  }
+
+  .squeakerSumLinksCont {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+  }
 }

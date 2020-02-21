@@ -27,13 +27,82 @@ const Header = () => {
     fontFamily: "orkney-bold"
   };
 
+  const [slide, setSlide] = useState(false);
+  var cn = "slideMenu";
+  if (slide) {
+    cn = "slideMenu slideMenuActive";
+  }
+
   return (
     <div className="headerContainer">
-      <Link to="/">
-        <div className="headerLogo"></div>
-      </Link>
+      <div className="logoCont">
+        <Link to="/">
+          <div className="headerLogo"></div>
+        </Link>
+      </div>
+      {/*************************************     Hamburger Menu */}
+      <button
+        className="hamburger"
+        onClick={() => {
+          setSlide(!slide);
+        }}
+      >
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </button>
+      <div className={cn}>
+        <button
+          className="x"
+          onClick={() => {
+            setSlide(!slide);
+          }}
+        >
+          X
+        </button>
+        <div className="innerhamMenu">
+          <ul className="hamItems">
+            <Link style={linkStyleWhite} to="/Washare">
+              <li>WASHARE</li>
+            </Link>
+            <Link style={linkStyleWhite} to="/Fitly">
+              <li>FITLY</li>
+            </Link>
+            <Link style={linkStyleWhite} to="/Quikpix">
+              <li>QUIKPIX</li>
+            </Link>
+            <Link style={linkStyleWhite} to="/Calculator">
+              <li>CALCULATOR</li>
+            </Link>
+            <Link style={linkStyleWhite} to="/Squeaker">
+              <li>SQUEAKER</li>
+            </Link>
+            <Link style={linkStyleWhite} to="/PortfolioWebsite">
+              <li>PORTFOLIO WEBSITE</li>
+            </Link>
+            <Link style={linkStyleWhite} to="/About">
+              <li>ABOUT</li>
+            </Link>
+            <Link style={linkStyleWhite}>
+              <li>
+                <a
+                  style={linkStyleWhite}
+                  href="http://www.matthewnazari.ca/Resume.pdf"
+                  target="_blank"
+                >
+                  RESUME
+                </a>
+              </li>
+            </Link>
+            <Link style={linkStyleWhite} to="/Contact">
+              <li>CONTACT</li>
+            </Link>
+          </ul>
+        </div>
+      </div>
+      {/*************************************     Desktop Nav Menu */}
       <ul className="navItemsContainer">
-        <div>
+        <div className="projectsCont">
           <Button
             aria-controls="simple-menu"
             aria-haspopup="true"
@@ -73,24 +142,32 @@ const Header = () => {
             </Link>
           </Menu>
         </div>
-        <Link to="/About" style={linkStyleWhite}>
-          <li className="navItems navAbout">ABOUT</li>
-        </Link>
-        <li className="navItems navAbout" style={linkStyleWhite}>
-          <a
-            style={linkStyleWhite}
-            href="http://www.matthewnazari.ca/Matthew_Nazari_Resume.pdf"
-            target="_blank"
-          >
-            RESUME
-          </a>
-        </li>
-        <Link to="/Contact" style={linkStyleWhite}>
-          <li className="navItems navContact">CONTACT</li>
-        </Link>
+        <div className="navCont">
+          <Link to="/About" style={linkStyleWhite}>
+            <li className="navItems navAbout">ABOUT</li>
+          </Link>
+        </div>
+        <div className="navCont">
+          <li className="navItems navAbout" style={linkStyleWhite}>
+            <a
+              style={linkStyleWhite}
+              href="http://www.matthewnazari.ca/Resume.pdf"
+              target="_blank"
+            >
+              RESUME
+            </a>
+          </li>
+        </div>
+        <div className="navCont">
+          <Link to="/Contact" style={linkStyleWhite}>
+            <li className="navItems navContact">CONTACT</li>
+          </Link>
+        </div>
       </ul>
     </div>
   );
 };
+
+Header.defaultProps = {};
 
 export default Header;

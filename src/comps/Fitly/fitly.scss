@@ -8,10 +8,12 @@
 
 .fitlyimg1 {
   background-image: url("../../assets/graphics/fitlyP1.PNG");
+  background-size: cover;
 }
 
 .fitlyimg2 {
   background-image: url("../../assets/graphics/fitlyP2.PNG");
+  background-size: contain;
 }
 
 .fitlyimg3 {
@@ -20,12 +22,32 @@
 
 .fitlyimg4 {
   background-image: url("../../assets/graphics/fitlyP4.PNG");
+  background-size: cover;
 }
 
 .fitlyimg5 {
   background-image: url("../../assets/graphics/fitlyP5.PNG");
+  background-size: cover;
 }
 
 .fitlyimg6 {
   background-image: url("../../assets/graphics/fitlyP6.PNG");
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .fitlyimg4 {
+    background-image: url("../../assets/graphics/fitlyP4.PNG");
+    background-size: contain;
+  }
+
+  .fitlyimg5 {
+    background-image: url("../../assets/graphics/fitlyP5.PNG");
+    background-size: contain;
+  }
+
+  .fitlyimg6 {
+    background-image: url("../../assets/graphics/fitlyP6.PNG");
+    background-size: contain;
+  }
 }

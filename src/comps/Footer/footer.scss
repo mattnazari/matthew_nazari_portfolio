@@ -1,8 +1,9 @@
 .footerContainer {
   display: flex;
+  flex: 1;
   align-items: center;
   justify-content: space-between;
-  width: 100vw;
+  width: 100%;
   max-height: 100px;
   background-color: #191919;
   color: #efefef;
@@ -89,8 +90,35 @@
   height: 30px;
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .icons:hover {
-  margin-bottom: 10px;
+  margin-bottom: 7px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    font-size: 12pt;
+  }
+
+  .copyright {
+    font-size: 6pt;
+  }
+
+  .icons {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .footerContainer {
+    padding: 10px;
+  }
+
+  .underline {
+    height: 3px;
+  }
 }

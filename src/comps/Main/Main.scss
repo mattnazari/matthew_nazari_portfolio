@@ -2,11 +2,13 @@
   display: flex;
   flex-flow: column wrap;
   flex: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .topHomeSection {
+  width: 100%;
   height: 900px;
-  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +21,6 @@
   padding: 200px 100px 200px 100px;
   line-height: 5rem;
   background-image: url("../../assets/graphics/bg.png");
-  border-radius: 0px 0px 20px 20px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -88,14 +89,31 @@
   justify-content: space-between;
   box-sizing: border-box;
   padding: 50px 300px 50px 300px;
+  align-items: center;
 }
 
-@media only screen and (max-width: 1400px) {
+@media screen and (max-width: 768px) {
   .homeCards {
+    width: 100vw;
+    padding: 10px;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bottomHomeSection {
+    width: 100%;
     box-sizing: border-box;
-    padding: 50px;
+    padding: 100px 10px 100px 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .topHomeSection {
+    font-size: 24pt;
+    box-sizing: border-box;
+    padding: 100px 10px 100px 10px;
+    height: 700px;
+    font-weight: 900;
   }
 }

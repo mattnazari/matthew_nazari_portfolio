@@ -29,6 +29,16 @@
   transition: 0.3s ease-in-out;
 }
 
+.circleIcons,
+.squareIcons {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 100px 0 100px 0;
+}
+
 .contactGithub {
   background-image: url("../../assets/graphics/greyGithub.svg");
 }
@@ -45,18 +55,14 @@
   background-image: url("../../assets/graphics/greyLinkedin.svg");
 }
 
-.contactIconsCont {
+.contactIconsWrapper {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   box-sizing: border-box;
   padding: 50px 100px 50px 100px;
-}
-
-.contactIconsCont {
-  display: flex;
-  flex-flow: row warp;
-  min-width: 500px;
+  width: 100%;
+  height: 600px;
 }
 
 .contactAnch {
@@ -106,4 +112,73 @@
 
 .linkedinAnch:hover {
   color: #191919;
+}
+
+@media screen and (max-width: 768px) {
+  .contactCont {
+    padding: 100px 10px 30px 10px;
+  }
+
+  .contactAnch {
+    align-items: center;
+    text-decoration: none;
+    font-family: orkney-bold;
+    color: #191919;
+    width: 300px;
+    height: 50px;
+  }
+
+  .contactGithub {
+    background-image: url("../../assets/graphics/blkGithub.svg");
+  }
+
+  .contactEmail {
+    background-image: url("../../assets/graphics/blkEmail.svg");
+  }
+
+  .contactPhone {
+    background-image: url("../../assets/graphics/blkPhone.svg");
+  }
+
+  .contactLinkedin {
+    background-image: url("../../assets/graphics/blkLinkedin.svg");
+  }
+
+  .contactIconsWrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .circleIcons,
+  .squareIcons {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  .contactIconsText {
+    width: 150px;
+    display: inline-block;
+  }
+
+  .contactIcons {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .contactIconsCont {
+    margin-top: 80px;
+  }
 }

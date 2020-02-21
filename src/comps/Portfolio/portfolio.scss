@@ -30,3 +30,12 @@
 .portfolioSumLinks:hover {
   color: #3bade6;
 }
+
+@media screen and (max-width: 768px) {
+  .portfolioSumLinks {
+    color: #3bade6;
+    padding: 0 50px 0 50px;
+    font-size: 18pt;
+    margin-top: 20px;
+  }
+}
