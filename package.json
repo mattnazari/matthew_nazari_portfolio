@@ -1,5 +1,6 @@
 {
   "name": "matthew_nazari_portfolio",
+  "homepage": "http://www.matthewnazari.ca/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
